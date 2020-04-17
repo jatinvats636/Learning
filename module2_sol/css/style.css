@@ -1,0 +1,67 @@
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 25px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+#i1 {
+  background-color: indianred;
+}
+#i2 {
+  background-color: brown;
+}
+#i3 {
+  background-color: burlywood;
+}
+
+p {
+}
+
+body {
+  margin: 5px;
+  padding: 0;
+}
+
+section {
+  background-color: darkgray;
+  padding: 5px;
+  margin: 5px;
+  height: 200px;
+  border: 2px solid black;
+}
+
+/* for desktop */
+
+@media (min-width: 992px) {
+  .col-lg-4 {
+    float: left;
+    width: 33.33%;
+  }
+}
+
+/* for tablet */
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-6 {
+    float: left;
+    width: 50%;
+  }
+  .col-md-12 {
+    float: left;
+    width: 100%;
+  }
+}
+
+/* for mobile */
+
+@media (max-width: 767px) {
+  .col-sm-12 {
+    float: left;
+    width: 100%;
+  }
+}
