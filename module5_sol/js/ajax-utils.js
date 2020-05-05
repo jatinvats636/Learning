@@ -1,6 +1,6 @@
 (function (global) {
 
-// Set up a namespace for our utility
+/* Set up a namespace for our utility*/
 var ajaxUtils = {};
 
 
