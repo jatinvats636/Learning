@@ -1,0 +1,68 @@
+* {
+  box-sizing: border-box;
+}
+
+#header-nav {
+  background-color: #011f4b;
+  border-radius: 0px;
+  border: 0;
+  border-bottom: solid black 3px;
+  margin-bottom: 0;
+}
+
+.navbar-brand {
+  padding-left: 0;
+}
+
+.navbar-brand a:hover,
+.navbar-brand a:focus {
+  text-decoration: none;
+}
+
+.navbar-brand h1 {
+  font-family: "Alfa Slab One";
+  font-size: 1.5em;
+  color: #b3cde0;
+  margin-top: 0;
+  margin-left: 15px;
+  margin-bottom: 0;
+}
+
+.text-center {
+  font-family: "Alfa Slab One";
+  font-size: 30px;
+  font-weight: lighter;
+  position: relative;
+  margin-top: 55px;
+}
+
+#text {
+  margin: 10px;
+  background-color: #03396c;
+  color: #c9d7e0;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: bold;
+  position: relative;
+}
+
+#nav-list {
+  margin-top: 10px;
+}
+
+#nav-list a {
+  text-align: center;
+  color: #c3d4e0;
+  font-family: "Alfa Slab One";
+  font-weight: 100;
+  background-color: #005b96;
+}
+
+#nav-list a:hover {
+  background-color: #011f4b;
+}
+
+.navbar-default .navbar-collapse {
+  margin-top: 0px;
+  border: 0px;
+  list-style-type: none;
+}
