@@ -54,7 +54,7 @@ body {
 
 .text-center {
   font-family: "Alfa Slab One";
-  font-size: 30px;
+  font-size: 20px;
   font-weight: lighter;
   position: relative;
 }
@@ -109,7 +109,7 @@ td {
 .footer {
   position: fixed;
   left: 0;
-  bottom: 0;
+  bottom: 0px;
   width: 100%;
   background-color: rgb(0, 0, 0);
   color: white;
@@ -118,28 +118,28 @@ td {
 
 #mon {
   background-color: #922b21;
-  margin: 0px 30px;
+  margin: 0px 20px;
   margin-top: 85px;
 }
 #tue {
   background-color: #1f618d;
-  margin: 0px 30px;
+  margin: 0px 20px;
 }
 #wed {
   background-color: #117a65;
-  margin: 0px 30px;
+  margin: 0px 20px;
 }
 #thu {
   background-color: #b9770e;
-  margin: 0px 30px;
+  margin: 0px 20px;
 }
 #fri {
   background-color: #616a6b;
-  margin: 0px 30px;
+  margin: 0px 20px;
 }
 #sat {
   background-color: #283747;
-  margin: 0px 30px;
+  margin: 0px 20px;
   margin-bottom: 50px;
 }
 
