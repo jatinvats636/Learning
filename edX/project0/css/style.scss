@@ -1,0 +1,21 @@
+$color: black; //sass variable
+
+.row1 {
+  width: 90%;
+}
+table {
+  @extend .row1; //sass inheritance
+  border: 2px $color;
+  margin: 0px auto;
+  border-collapse: collapse;
+  td {
+    //sass nesting
+    @extend row1;
+    padding: 10px;
+  }
+  img {
+    //sass nesting
+    @extend .row1;
+    border: 3px $color solid;
+  }
+}
