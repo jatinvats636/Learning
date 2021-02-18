@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>week 5 assignment</title>
+    <script>
+        function validate() {
+            var x = document.getElementById("name").value;
+            if (x == "") {
+                alert("Name must be filled out");
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <form>
+        <center>
+            <label for="1st">Enter Name: </label>
+            <input id="name" type="text" name="1st" onblur="validate()">
+            <br><br>
+            <label for="2nd">2nd Input Field: </label>
+            <input type="text" name="2nd">
+            <br><br>
+            <label for="3rd">3rd Input Field: </label>
+            <input type="text" name="3rd">
+            <br><br>
+            <label for="4th">4th Input Field: </label>
+            <input type="text" name="4th">
+            <br><br>
+            <label for="5th">5th Input Field: </label>
+            <input type="text" name="5th">
+            <br><br>
+            <button>Submit</button>
+        </center>
+    </form>
+</body>
+
+</html>

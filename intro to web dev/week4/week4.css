@@ -1,0 +1,44 @@
+body {
+  background-color: black;
+  margin: 5%;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#para {
+  background-color: rgb(39, 179, 26);
+  border-radius: 10px;
+  text-align: center;
+  padding: 5%;
+  font-size: 1.1em;
+  font-weight: 500;
+}
+
+#image {
+  margin: 0px auto;
+  display: block;
+}
+table {
+  margin: 0px auto;
+  width: 80%;
+}
+table,
+tr,
+td,
+th {
+  border: 2px solid rgb(15, 15, 15);
+  padding: 1%;
+  text-align: center;
+  font-weight: 500;
+}
+#r1 {
+  background-color: rgb(17, 20, 158);
+}
+#r2 {
+  background-color: rgb(175, 166, 37);
+}
+#r3 {
+  background-color: cornflowerblue;
+}
+#r4 {
+  background-color: blueviolet;
+}
