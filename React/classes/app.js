@@ -5,3 +5,6 @@ class Person {
   }
   printName = () => console.log(this.name, this.age);
 }
+
+const person = new Person();
+person.printName();
