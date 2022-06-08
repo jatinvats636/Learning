@@ -1,6 +1,6 @@
 class Person {
   constructor() {
-    this.name = "Jatin";
+    this.name = "Jatin vats";
     this.age = 23;
   }
   printName = () => console.log(this.name, this.age);
