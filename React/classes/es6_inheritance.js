@@ -1,6 +1,6 @@
 class Human {
   constructor() {
-    this.gender = "male";
+    this.gender = "female";
   }
   printGender = () => console.log(this.gender);
 }
@@ -10,6 +10,7 @@ class Person extends Human {
     super();
     this.name = "Jatin Vats";
     this.age = 23;
+    this.gender = "male";
   }
   printName = () => console.log(this.name, this.age);
 }
