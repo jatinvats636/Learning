@@ -7,6 +7,7 @@ class Human {
 
 class Person extends Human {
   constructor() {
+    super();
     this.name = "Jatin Vats";
     this.age = 23;
   }
@@ -15,3 +16,4 @@ class Person extends Human {
 
 const person = new Person();
 person.printName();
+person.printGender();
