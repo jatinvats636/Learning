@@ -5,7 +5,7 @@ class Human {
   printGender = () => console.log(this.gender);
 }
 
-class Person {
+class Person extends Human {
   constructor() {
     this.name = "Jatin Vats";
     this.age = 23;
