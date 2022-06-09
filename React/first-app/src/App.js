@@ -5,7 +5,8 @@ function App() {
   return (
     <div>
       <h2>Jatin kumar vats</h2>
-      <TodoText></TodoText>
+      {/* <TodoText></TodoText> */}
+      <TodoText />
     </div>
   );
 }
