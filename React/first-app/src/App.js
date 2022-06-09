@@ -1,4 +1,4 @@
-import TodoText from "./components/TodoText.js";
+import TodoText from "./components/TodoText";
 import "./App.css";
 
 function App() {
