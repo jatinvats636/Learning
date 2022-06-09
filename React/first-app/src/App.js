@@ -1,5 +1,5 @@
 // import TodoText from "./components/TodoText";
-import ExpenseItem from "./components/ExpenseItem";
+// import ExpenseItem from "./components/ExpenseItem";
 import Expenses from "./components/Expenses";
 import "./App.css";
 
