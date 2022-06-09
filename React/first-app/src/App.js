@@ -1,12 +1,11 @@
-import TodoText from "./components/TodoText";
+// import TodoText from "./components/TodoText";
+import ExpenseItem from "./components/ExpenseItem";
 import "./App.css";
 
 function App() {
   return (
     <div>
-      <h2>Jatin kumar vats</h2>
-      {/* <TodoText></TodoText> */}
-      <TodoText />
+      <ExpenseItem />
     </div>
   );
 }
