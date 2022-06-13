@@ -1,5 +1,6 @@
 // import TodoText from "./components/TodoText";
 // import ExpenseItem from "./components/ShowExpenses/ExpenseItem";
+import NewExpense from "./components/AddExpenses/NewExpense";
 import Expenses from "./components/ShowExpenses/Expenses";
 import "./App.css";
 
@@ -28,6 +29,7 @@ function App() {
 
   return (
     <div>
+      <NewExpense />
       <Expenses expenses={expenses} />
     </div>
   );
