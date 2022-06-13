@@ -1,6 +1,6 @@
 // import TodoText from "./components/TodoText";
-// import ExpenseItem from "./components/ExpenseItem";
-import Expenses from "./components/Expenses";
+// import ExpenseItem from "./components/ShowExpenses/ExpenseItem";
+import Expenses from "./components/ShowExpenses/Expenses";
 import "./App.css";
 
 function App() {
