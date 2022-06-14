@@ -7,6 +7,7 @@ const NewExpense = () => {
       ...enteredExpenseData,
       id: Math.random.toString(),
     };
+    console.log(expeneseData);
   };
   return (
     <div className="new-expense">
