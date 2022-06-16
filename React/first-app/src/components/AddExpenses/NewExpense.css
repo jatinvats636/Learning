@@ -23,13 +23,9 @@
 
 .new-expense button:hover,
 .new-expense button:active {
-  background-color: #40005d;
-  border-color: #36054d;
-  transform: scale(1.05);
-}
-
-.new-expense button:hover {
-  transform: scale(1.02);
+  border: 2px solid #40005d;
+  background-color: #a892ee;
+  color: #40005d;
 }
 
 .new-expense button:active {
