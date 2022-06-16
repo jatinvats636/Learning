@@ -1,12 +1,20 @@
 // import { useState } from "react";
 import ExpenseItem from "./ExpenseItem.js";
+import ExpenseFilter from "../FilterExpenses/ExpenseFilter.js";
 import "./Expenses.css";
 
 let Expenses = (props) => {
   let expenseList = [];
   // const [amount, resetAmount] = useState(props.expenses[0].amount);
   // let updateAmount = () => resetAmount("0");
-
+  const [filteredYear, setFilteredYear] = useState("2020");
+  const filterChangeHandler = (selectedYear) => {
+    setFilteredYear(selectedYear);
+  };
+  <ExpenseFilter
+    selected={filteredYear}
+    onChangeFilter={filterChangeHandler}
+  />;
   props.expenses.forEach((element) => {
     expenseList.push(
       <ExpenseItem

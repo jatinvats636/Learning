@@ -1,6 +1,6 @@
 import "./ExpenseFilter.css";
 
-const ExpenseFilter = () => {
+const ExpenseFilter = (props) => {
   return (
     <div className="expenses-filter">
       <div className="expenses-filter_control">
