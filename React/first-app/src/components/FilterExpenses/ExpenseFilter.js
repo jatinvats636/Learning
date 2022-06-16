@@ -3,7 +3,7 @@ import "./ExpenseFilter.css";
 const ExpenseFilter = () => {
   return (
     <div className="expenses-filter">
-      <div className="expenses-filter__control">
+      <div className="expenses-filter_control">
         <label>Filter by year</label>
         <select>
           <option value="2022">2022</option>
