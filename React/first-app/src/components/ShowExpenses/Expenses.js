@@ -1,4 +1,4 @@
-// import { useState } from "react";
+import React, { useState } from "react";
 import ExpenseItem from "./ExpenseItem.js";
 import ExpenseFilter from "../FilterExpenses/ExpenseFilter.js";
 import "./Expenses.css";
@@ -11,10 +11,7 @@ let Expenses = (props) => {
   const filterChangeHandler = (selectedYear) => {
     setFilteredYear(selectedYear);
   };
-  <ExpenseFilter
-    selected={filteredYear}
-    onChangeFilter={filterChangeHandler}
-  />;
+
   props.expenses.forEach((element) => {
     expenseList.push(
       <ExpenseItem
@@ -28,6 +25,10 @@ let Expenses = (props) => {
 
   return (
     <div className="expenses">
+      <ExpenseFilter
+        selected={filteredYear}
+        onChangeFilter={filterChangeHandler}
+      />
       {expenseList}
       {/* <button onClick={updateAmount}>Click Me</button> */}
     </div>
