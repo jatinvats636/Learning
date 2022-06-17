@@ -13,20 +13,26 @@ let Expenses = (props) => {
   };
 
   const filteredExpenses = props.expenses.filter((element) => {
-    return element.date.getFullYear().toString() === filteredYear;
-  });
-
-  filteredExpenses.forEach((element) => {
-    expenseList.push(
-      <ExpenseItem
-        key={element.id}
-        title={element.title}
-        amount={element.amount}
-        // amount={amount}
-        date={element.date}
-      />
+    // return element.date.getFullYear().toString() === filteredYear;
+    return (
+      element.date.toLocaleString("en-US", { year: "numeric" }) === filteredYear
     );
   });
+
+  filteredExpenses.length === 0 &&
+    expenseList.push(<p>No expenses found for given year.</p>);
+  filteredExpenses.length > 0 &&
+    filteredExpenses.forEach((element) => {
+      expenseList.push(
+        <ExpenseItem
+          key={element.id}
+          title={element.title}
+          amount={element.amount}
+          // amount={amount}
+          date={element.date}
+        />
+      );
+    });
 
   return (
     <div className="expenses">
