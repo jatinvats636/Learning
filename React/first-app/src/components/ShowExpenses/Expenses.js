@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import ExpenseItem from "./ExpenseItem.js";
 import ExpenseFilter from "../FilterExpenses/ExpenseFilter.js";
+import ExpensesChart from "./ExpensesChart.js";
 import "./Expenses.css";
 
 let Expenses = (props) => {
@@ -21,7 +22,7 @@ let Expenses = (props) => {
 
   filteredExpenses.length === 0 &&
     expenseList.push(
-      <h className="noexpense">No expenses found for given year.</h>
+      <h3 className="noexpense">No expenses found for given year.</h3>
     );
   filteredExpenses.length > 0 &&
     filteredExpenses.forEach((element) => {
@@ -42,6 +43,7 @@ let Expenses = (props) => {
         selected={filteredYear}
         onChangeFilter={filterChangeHandler}
       />
+      <ExpensesChart expenses={filteredExpenses} />
       {expenseList}
       {/* <button onClick={updateAmount}>Click Me</button> */}
     </div>
