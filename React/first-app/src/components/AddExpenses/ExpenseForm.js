@@ -47,6 +47,7 @@ const ExpenseForm = (props) => {
     // };
     // console.log(userInput);
     props.onSaveExpenseData(userInput);
+    // props.onCancel();
     setUserInput(() => {
       return {
         title: "",

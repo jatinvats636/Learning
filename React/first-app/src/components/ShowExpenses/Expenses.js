@@ -21,7 +21,7 @@ let Expenses = (props) => {
 
   filteredExpenses.length === 0 &&
     expenseList.push(
-      <h3 className="noexpense">No expenses found for given year.</h3>
+      <h className="noexpense">No expenses found for given year.</h>
     );
   filteredExpenses.length > 0 &&
     filteredExpenses.forEach((element) => {
