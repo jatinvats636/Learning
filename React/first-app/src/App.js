@@ -18,6 +18,36 @@ const dummy_expenses = [
     amount: 10.11,
     date: new Date(2022, 6, 6),
   },
+  {
+    id: "e3",
+    title: "Bag",
+    amount: 15.11,
+    date: new Date(2022, 1, 6),
+  },
+  {
+    id: "e4",
+    title: "Bottle",
+    amount: 5.1,
+    date: new Date(2022, 4, 5),
+  },
+  {
+    id: "e5",
+    title: "Remote",
+    amount: 7.11,
+    date: new Date(2022, 3, 9),
+  },
+  {
+    id: "e6",
+    title: "TWS",
+    amount: 70.5,
+    date: new Date(2022, 8, 7),
+  },
+  {
+    id: "e7",
+    title: "Phone",
+    amount: 150.45,
+    date: new Date(2022, 9, 7),
+  },
 ];
 
 const App = () => {
