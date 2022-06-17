@@ -12,7 +12,11 @@ let Expenses = (props) => {
     setFilteredYear(selectedYear);
   };
 
-  props.expenses.forEach((element) => {
+  const filteredExpenses = props.expenses.filter((element) => {
+    return element.date.getFullYear().toString() === filteredYear;
+  });
+
+  filteredExpenses.forEach((element) => {
     expenseList.push(
       <ExpenseItem
         key={element.id}
