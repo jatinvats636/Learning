@@ -7,7 +7,7 @@ let Expenses = (props) => {
   let expenseList = [];
   // const [amount, resetAmount] = useState(props.expenses[0].amount);
   // let updateAmount = () => resetAmount("0");
-  const [filteredYear, setFilteredYear] = useState("2020");
+  const [filteredYear, setFilteredYear] = useState("2022");
   const filterChangeHandler = (selectedYear) => {
     setFilteredYear(selectedYear);
   };
@@ -20,7 +20,9 @@ let Expenses = (props) => {
   });
 
   filteredExpenses.length === 0 &&
-    expenseList.push(<p>No expenses found for given year.</p>);
+    expenseList.push(
+      <p className="noexpense">No expenses found for given year.</p>
+    );
   filteredExpenses.length > 0 &&
     filteredExpenses.forEach((element) => {
       expenseList.push(
