@@ -15,6 +15,7 @@ let Expenses = (props) => {
   props.expenses.forEach((element) => {
     expenseList.push(
       <ExpenseItem
+        key={element.id}
         title={element.title}
         amount={element.amount}
         // amount={amount}
