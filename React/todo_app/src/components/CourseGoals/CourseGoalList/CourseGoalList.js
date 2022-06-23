@@ -2,7 +2,6 @@ import React from "react";
 
 import CourseGoalItem from "../CourseGoalItem/CourseGoalItem";
 import "./CourseGoalList.css";
-import React from "react";
 
 const CourseGoalList = (props) => {
   return (
