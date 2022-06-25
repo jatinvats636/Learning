@@ -1,4 +1,3 @@
-// import { useState } from "react";
 import "./ExpenseDate.css";
 
 let ExpenseDate = (props) => {
