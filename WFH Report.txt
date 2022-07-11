@@ -1,0 +1,94 @@
+08/06/22(wed):-
+inheritance with es7
+rest and spread operator
+destructuring
+other js basics
+react components
+create react app
+standard practices and conventions
+tried to create some components and rendered them with additional styling.
+
+09/06/22(thu):-
+Styling components
+Dynamic data in JSX
+Props
+Adding logic inside components
+
+10/06/22(friday):-
+Working with events
+States in React
+useState
+
+13/06/22(mon):-
+I have completed following topics today: -
+Creating forms
+Form events (onChange/onSubmit)
+Taking inputs 
+Handling event target
+Handling multiple states (useState)
+	-using objects
+	-using prevState
+Handling form submission
+
+14/06/22(tue): -
+I did following things today: -
+Bottom-Up Component Communication
+Lifting State Up
+Controlled & Uncontrolled Components
+Stateless vs Stateful Components
+GIT setup is done. 
+
+15/06/22(wed): -
+I have covered following topics today: -
+- Rendering Lists of Data
+- Stateful Lists
+- Keys
+- Outputting Conditional Content
+- Conditional return statements
+- Dynamic Styles
+
+16/06/22(thu): -
+Today I did following things: -
+-Implemented previous topics in a project
+-Fixed bugs related to stateful lists and keys
+-Learnt how to add charts
+
+17/06/22(fri): -
+Today I learnt about Styling React Components including following concepts: -
+- Setting dynamic inline styles
+- Setting CSS classes dynamically
+- Styled Components & Dynamic Props
+
+20/06/22(mon): -
+I did following things today: -
+- Worked on implementation of previous topics.
+- Styled components & media queries.
+- VPN setup on my laptop.
+
+21/06/22(tue): -
+Today I learnt about: -
+- CSS Modules
+- Debugging react apps (React DevTools)
+- Prerequisites for Product Training
+
+22/06/22(wed): -
+Today I did following things: -
+- Revised DBMS concepts
+- Product Training
+
+23/06/22(thu): -
+Today I joined the Product Training session and completed the tasks assigned.
+
+24/06/22(fri):-
+I joined the Product Training session and completed the tasks based on following topics: -
+- Role Management
+- Team Management
+- User Management
+
+11/07/22(mon):-
+Today I learnt about following C# concepts: -
+- Variables and Constants
+- Overflowing
+- Scopes
+- Type Conversion
+- Operators
