@@ -30,12 +30,17 @@ namespace MyApplication
             //nums[2] = 3;
             //Console.WriteLine(nums[2] + " & " + nums[3]);
 
-            //string nm = string.Format("{0} {1}", "jatin", "vats");
+            var nm = new string[3] {"jatin","kumar","vats"};
+            Console.WriteLine(string.Join(" ",nm));
+
+            //String nm = string.Format("{1} {0}", "jatin", "vats");
             //Console.WriteLine(nm);
 
-            string path1 = "D:\\Learning\\C#\\.vs\\C#\\v16";
-            string path2 = @"D:\Learning\C#\.vs\C#\v16";
-            Console.WriteLine("path1:{0}\npath2:{1}",path1,path2);
+            //string path1 = "D:\\Learning\\C#\\.vs\\C#\\v16";
+            //string path2 = @"D:\Learning\C#\.vs\C#\v16";
+            //Console.WriteLine("path1:{0}\npath2:{1}",path1,path2);
+
+
         }
     }
 }
