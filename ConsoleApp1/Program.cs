@@ -33,7 +33,9 @@ namespace MyApplication
             //string nm = string.Format("{0} {1}", "jatin", "vats");
             //Console.WriteLine(nm);
 
-
+            string path1 = "D:\\Learning\\C#\\.vs\\C#\\v16";
+            string path2 = @"D:\Learning\C#\.vs\C#\v16";
+            Console.WriteLine("path1:{0}\npath2:{1}",path1,path2);
         }
     }
 }
