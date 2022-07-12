@@ -24,11 +24,16 @@ namespace MyApplication
             //    Console.WriteLine("\n\nCan't convert the provided string !!!");
             //}
 
-            int[] nums = new int[4];
-            nums[0] = 1;
-            nums[1] = 2;
-            nums[2] = 3;
-            Console.WriteLine(nums[2] + " & " + nums[3]);
+            //int[] nums = {1,2,3,4,5};
+            //nums[0] = 1;
+            //nums[1] = 2;
+            //nums[2] = 3;
+            //Console.WriteLine(nums[2] + " & " + nums[3]);
+
+            //string nm = string.Format("{0} {1}", "jatin", "vats");
+            //Console.WriteLine(nm);
+
+
         }
     }
 }
