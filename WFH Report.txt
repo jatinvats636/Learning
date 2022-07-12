@@ -92,3 +92,6 @@ Today I learnt about following C# concepts: -
 - Scopes
 - Type Conversion
 - Operators
+
+12/07/22(tue):-
+Today I learnt about following C# concepts: -
