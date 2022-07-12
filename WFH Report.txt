@@ -95,5 +95,5 @@ Today I learnt about following C# concepts: -
 
 12/07/22(tue):-
 Today I learnt about following C# concepts: -
-- Non-Primitives (Classes, Objects, )
+- Non-Primitives (Classes, Objects, Structs, Arrays, Strings)
 - 
