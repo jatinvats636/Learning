@@ -4,6 +4,7 @@ namespace MyApplication
 {
     class Program
     {
+        enum Days { Sun ,Mon=5, Tue, Wed, Thu=10, Fri, Sat };
         static void Main(string[] args)
         {
             //double numDouble = 1.534567;
@@ -40,7 +41,7 @@ namespace MyApplication
             //string path2 = @"D:\Learning\C#\.vs\C#\v16";
             //Console.WriteLine("path1:{0}\npath2:{1}",path1,path2);
 
-
+            //Console.WriteLine("Sun: {0}\nMon: {1}\nTue: {2}\nThu: {3}\nFri: {4}", (int)Days.Sun, (int)Days.Mon, (int)Days.Tue, (int)Days.Thu, (int)Days.Fri);
         }
     }
 }
