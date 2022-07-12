@@ -30,8 +30,8 @@ namespace MyApplication
             //nums[2] = 3;
             //Console.WriteLine(nums[2] + " & " + nums[3]);
 
-            var nm = new string[3] {"jatin","kumar","vats"};
-            Console.WriteLine(string.Join(" ",nm));
+            //var nm = new string[3] {"jatin","kumar","vats"};
+            //Console.WriteLine(string.Join(" ",nm));
 
             //String nm = string.Format("{1} {0}", "jatin", "vats");
             //Console.WriteLine(nm);
