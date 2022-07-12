@@ -21,7 +21,7 @@ namespace MyApplication
             }
             catch (Exception)
             {
-                Console.WriteLine("\n\nCan't convert !!!");
+                Console.WriteLine("\n\nCan't convert the provided string !!!");
             }
 
             
