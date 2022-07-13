@@ -104,3 +104,14 @@ Today I learnt about following C# concepts: -
 - Reference and Value Types
 - Conditional Statements
 - Iteration Statements
+
+13/07/22(tue):-
+Today I learnt about following C# concepts: -
+- Multi-dimensional arrays
+- Array Methods
+- Lists
+- 
+
+
+
+
