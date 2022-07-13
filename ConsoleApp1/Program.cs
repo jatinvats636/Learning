@@ -127,20 +127,24 @@ namespace MyApplication
             //// of elements of List<T>
             //Console.WriteLine(firstlist.Capacity);
 
-            Console.WriteLine("new DateTime()\t\t\t: " + new DateTime());
-            Console.WriteLine("DateTime.MaxValue\t\t: " + DateTime.MaxValue);
-            Console.WriteLine("DateTime.MinValue\t\t: " + DateTime.MinValue);
-            Console.WriteLine("DateTime.Now\t\t\t: " + DateTime.Now);
-            Console.WriteLine("DateTime.UtcNow\t\t\t: " + DateTime.UtcNow);
-            Console.WriteLine("DateTime.Today\t\t\t: " + DateTime.Today);
-            Console.WriteLine("DateTime.Today.Date\t\t: " + DateTime.Today.Date);
-            Console.WriteLine("DateTime.Today.Day\t\t: " + DateTime.Today.Day);
-            Console.WriteLine("DateTime.Today.DayOfWeek\t: " + DateTime.Today.DayOfWeek);
-            Console.WriteLine("DateTime.Today.Hour\t\t: " + DateTime.Today.Hour);
-            Console.WriteLine("DateTime.Today.Long Date\t: " + DateTime.Today.ToLongDateString());
-            Console.WriteLine("DateTime.Now.Long Time\t\t: " + DateTime.Now.ToLongTimeString());
-            Console.WriteLine("DateTime.Today.Short Date\t: " + DateTime.Today.ToShortDateString());
-            Console.WriteLine("DateTime.Now.Short Time\t\t: " + DateTime.Now.ToShortTimeString());
+            //Console.WriteLine("new DateTime()\t\t\t: " + new DateTime());
+            //Console.WriteLine("DateTime.MaxValue\t\t: " + DateTime.MaxValue);
+            //Console.WriteLine("DateTime.MinValue\t\t: " + DateTime.MinValue);
+            //Console.WriteLine("DateTime.Now\t\t\t: " + DateTime.Now);
+            //Console.WriteLine("DateTime.UtcNow\t\t\t: " + DateTime.UtcNow);
+            //Console.WriteLine("DateTime.Today\t\t\t: " + DateTime.Today);
+            //Console.WriteLine("DateTime.Today.Date\t\t: " + DateTime.Today.Date);
+            //Console.WriteLine("DateTime.Today.Day\t\t: " + DateTime.Today.Day);
+            //Console.WriteLine("DateTime.Today.DayOfWeek\t: " + DateTime.Today.DayOfWeek);
+            //Console.WriteLine("DateTime.Today.Hour\t\t: " + DateTime.Today.Hour);
+            //Console.WriteLine("DateTime.Today.Long Date\t: " + DateTime.Today.ToLongDateString());
+            //Console.WriteLine("DateTime.Now.Long Time\t\t: " + DateTime.Now.ToLongTimeString());
+            //Console.WriteLine("DateTime.Now.ToString\t\t: " + DateTime.Now.ToString());
+            //Console.WriteLine("DateTime.Now.ToString(\"U\")\t: " + DateTime.Now.ToString("U"));
+            //Console.WriteLine("DateTime.Today.Short Date\t: " + DateTime.Today.ToShortDateString());
+            //Console.WriteLine("DateTime.Now.Short Time\t\t: " + DateTime.Now.ToShortTimeString());
+
+
         }
     }
 }

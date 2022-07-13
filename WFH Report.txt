@@ -110,6 +110,8 @@ Today I learnt about following C# concepts: -
 - Multi-dimensional arrays
 - Array Methods
 - Lists
+- DateTime Object
+- TimeSpan Object
 - 
 
 
