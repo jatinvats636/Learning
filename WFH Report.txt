@@ -101,4 +101,6 @@ Today I learnt about following C# concepts: -
 - Arrays 
 - Strings
 - Enums
-- 
+- Reference and Value Types
+- Conditional Statements
+- Iteration Statements
