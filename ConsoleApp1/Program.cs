@@ -161,9 +161,18 @@ namespace MyApplication
             //Console.WriteLine("DateTime.Now.Short Time\t\t: " + DateTime.Now.ToShortTimeString());
 
             var str = " Jatin Vats ";
+            var str2 = " ";
             Console.WriteLine(str.ToLower());
             Console.WriteLine(str.ToUpper());
             Console.WriteLine(str.Trim());
+            Console.WriteLine(str.IndexOf("at"));
+            Console.WriteLine(str.LastIndexOf("at"));
+            Console.WriteLine(str.Substring(2,5));
+            Console.WriteLine(str.Replace('a','u'));
+            Console.WriteLine(str);
+            Console.WriteLine(String.IsNullOrWhiteSpace(str2)); ;
+            Console.WriteLine(String.IsNullOrEmpty(""));
+            Console.WriteLine(str.Split(' '));
         }
     }
 }

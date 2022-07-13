@@ -111,8 +111,7 @@ Today I learnt about following C# concepts: -
 - Array Methods
 - Lists
 - DateTime Object
-- TimeSpan Object
-- 
+- String Methods
 
 
 
