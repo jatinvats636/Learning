@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace MyApplication
 {
@@ -101,17 +102,32 @@ namespace MyApplication
 
 
 
-            //var arr = new char[10] { 'a', 'a', 'c', 'd', 'a', 'e', 'r', 'c', 'e', 'f' };
+            //var chars = new char[10] { 'a', 'a', 'c', 'd', 'a', 'e', 'r', 'c', 'e', 'f' };
             //var count = new int[10];
-            //for (var i = 0; i < arr.Length; i++)
+            //for (var i = 0; i < chars.Length; i++)
             //{
             //    int c = 0;
-            //    for (var j = 0; j < arr.Length; j++)
+            //    for (var j = 0; j < chars.Length; j++)
             //    {
-            //        if (arr[i] == arr[j])
+            //        if (chars[i] == chars[j])
             //            count[i]++;
             //    }
-            //    Console.WriteLine("{0} occured {1} times.", arr[i], count[i]);
+            //    Console.WriteLine("{0} occured {1} times.", chars[i], count[i]);
+            //}
+
+            //var chars = new char[10] { 'a', 'a', 'c', 'd', 'a', 'e', 'r', 'c', 'e', 'f' };
+            //var charSet = new HashSet<char>(chars).ToArray();
+            ////Console.WriteLine(charSet.Length);
+            ////var count = new int[10];
+            //for (var i = 0; i < charSet.Length; i++)
+            //{
+            //    var count = 0;
+            //    for (var j = 0; j < chars.Length; j++)
+            //    {
+            //        if (charSet[i] == chars[j])
+            //            count++;
+            //    }
+            //    Console.WriteLine("\t{0} => {1}", charSet[i], count);
             //}
 
             //int[] arr = { 1, 2, 3, 4, 5 };
@@ -144,7 +160,10 @@ namespace MyApplication
             //Console.WriteLine("DateTime.Today.Short Date\t: " + DateTime.Today.ToShortDateString());
             //Console.WriteLine("DateTime.Now.Short Time\t\t: " + DateTime.Now.ToShortTimeString());
 
-
+            var str = " Jatin Vats ";
+            Console.WriteLine(str.ToLower());
+            Console.WriteLine(str.ToUpper());
+            Console.WriteLine(str.Trim());
         }
     }
 }
